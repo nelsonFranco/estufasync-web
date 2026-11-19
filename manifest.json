@@ -1,0 +1,24 @@
+{
+  "id": "./index.php",
+  "name": "EstufaSync",
+  "short_name": "Estufa",
+  "description": "Painel de monitoramento ambiental para estufas.",
+  "lang": "pt-BR",
+  "start_url": "./index.php",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e9efe5",
+  "theme_color": "#0d4939",
+  "categories": [
+    "agriculture",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./icone.ico",
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ]
+}

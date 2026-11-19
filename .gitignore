@@ -1,0 +1,27 @@
+# Configuração e segredos
+**/config.php
+**/.env
+**/.env.*
+!**/.env.example
+
+# Firmware com credenciais locais
+**/Rede.h
+**/secrets.h
+**/credentials.h
+
+# Chaves privadas
+**/*.key
+**/*.pfx
+**/*.p12
+**/*private*.pem
+
+# Uploads dos usuários
+**/img/perfis/*
+!**/img/perfis/.htaccess
+!**/img/perfis/.gitkeep
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
