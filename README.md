@@ -17,8 +17,9 @@ Aplicação web acadêmica para acompanhar dados ambientais, cultivos, alertas e
 
 <div align="center">
 
-<!-- Substitua esta imagem pela captura principal: docs/assets/dashboard.png -->
-<img src="https://placehold.co/1200x620/0f2f24/e7f5ee?text=Adicione+uma+captura+do+painel+aqui" alt="Espaço reservado para captura do painel do EstufaSync" width="900">
+
+![Tela de Login do EstufaSync](docs/assets/imagens/login.png)
+
 
 </div>
 
@@ -31,28 +32,17 @@ O EstufaSync centraliza o acompanhamento de uma estufa conectada: mostra leitura
 | Temperatura, umidade, pressão, radiação, vento e sinal Wi-Fi | Alertas, relatórios CSV, perfil e suporte |
 | Cultivo, diário operacional e componentes | Sessões, controle de acesso, CSRF e auditoria |
 
-## 🎬 Demonstração
-
-<div align="center">
-
-<!-- Cole aqui o link do vídeo. Exemplo:
-[![Assistir à demonstração](https://img.youtube.com/vi/SEU_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=SEU_VIDEO_ID) -->
-
-[▶️ **Adicionar vídeo de demonstração**](#)
-
-</div>
-
 ## 🖼️ Galeria do projeto
 
-Substitua os cartões pelas capturas reais. Recomendação: guarde os arquivos em `docs/assets/`, por exemplo, `dashboard.png`, `cultivo.png` e `alertas.png`.
+As capturas abaixo fazem parte da documentação do repositório e estão organizadas em `docs/assets/imagens/`. Elas não são utilizadas pela aplicação em produção.
 
 <div align="center">
 
 | Painel inicial | Cultivo e diário |
 | --- | --- |
-| <img src="https://placehold.co/600x360/163c2d/e7f5ee?text=Print+do+painel" alt="Espaço para print do painel" width="420"> | <img src="https://placehold.co/600x360/163c2d/e7f5ee?text=Print+do+cultivo" alt="Espaço para print do cultivo" width="420"> |
-| Alertas e componentes | Relatórios ambientais |
-| <img src="https://placehold.co/600x360/163c2d/e7f5ee?text=Print+dos+alertas" alt="Espaço para print dos alertas" width="420"> | <img src="https://placehold.co/600x360/163c2d/e7f5ee?text=Print+dos+relatorios" alt="Espaço para print dos relatórios" width="420"> |
+| <img src="docs/assets/imagens/painel.png" alt="Painel do EstufaSync com leituras ambientais" width="420"> | <img src="docs/assets/imagens/cultivo.png" alt="Tela de cultivo e diário operacional" width="420"> |
+| Alertas | Relatórios ambientais |
+| <img src="docs/assets/imagens/alerta.png" alt="Tela de alertas do EstufaSync" width="420"> | <img src="docs/assets/imagens/relatorio.png" alt="Relatório ambiental do EstufaSync" width="420"> |
 
 </div>
 
@@ -160,7 +150,8 @@ Leia também [SECURITY.md](SECURITY.md) e [docs/seguranca.md](docs/seguranca.md)
 ```text
 web/
 ├── banco/                 # estrutura e migrações do banco
-├── docs/                  # documentação e imagens do README
+├── docs/                  # documentação do projeto
+│   └── assets/imagens/    # capturas exibidas no README
 ├── img/                   # imagens da aplicação
 ├── paginas/               # telas autenticadas
 ├── script/                # scripts JavaScript
