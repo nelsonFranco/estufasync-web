@@ -20,7 +20,7 @@ Aplicação web acadêmica para acompanhar dados ambientais, cultivos, alertas e
 
 <div align="center">
 
-<img src="docs/assets/imagens/logitela.png" alt="Tela de login do EstufaSync" width="900">
+<img src="docs/assets/imagens/logintela.png" alt="Tela de login do EstufaSync" width="900">
 
 </div>
 
