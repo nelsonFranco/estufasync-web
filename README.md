@@ -1,6 +1,9 @@
 <div align="center">
 
-# 🌿 EstufaSync
+<h1 align="center">
+  <img src="docs/assets/imagens/icone.png" alt="Ícone do EstufaSync" width="42">
+  EstufaSync
+</h1>
 
 ### Monitoramento inteligente para estufas, em um só painel.
 
@@ -17,9 +20,7 @@ Aplicação web acadêmica para acompanhar dados ambientais, cultivos, alertas e
 
 <div align="center">
 
-
-![Tela de Login do EstufaSync](docs/assets/imagens/login.png)
-
+<img src="docs/assets/imagens/login.png" alt="Tela de login do EstufaSync" width="900">
 
 </div>
 
