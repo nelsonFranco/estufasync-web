@@ -75,6 +75,7 @@ $paginaAtual = 'cultivo';
 require 'cabecalho.php';
 ?>
 <main>
+    <section class="quarteirao">
     <section class="heading"><div><p class="eyebrow">GESTÃO DO CULTIVO</p><h1>Ciclo de produção</h1><p>Estas informações são compartilhadas com todos os usuários da estufa.</p></div></section>
     <?php if ($mensagem): ?><p class="alert alert-success"><?= htmlspecialchars($mensagem, ENT_QUOTES, 'UTF-8') ?></p><?php endif; ?>
     <?php if ($erro): ?><p class="alert alert-error"><?= htmlspecialchars($erro, ENT_QUOTES, 'UTF-8') ?></p><?php endif; ?>
@@ -97,6 +98,7 @@ require 'cabecalho.php';
     <section class="event-list">
         <?php if (!$eventos): ?><p class="empty-alerts">Nenhum acontecimento registrado.</p><?php endif; ?>
         <?php foreach ($eventos as $item): ?><article><time><?= htmlspecialchars(date('d/m/Y H:i', strtotime($item['registrado_em'])), ENT_QUOTES, 'UTF-8') ?> · <?= htmlspecialchars($item['nome'], ENT_QUOTES, 'UTF-8') ?></time><p><?= htmlspecialchars($item['descricao'], ENT_QUOTES, 'UTF-8') ?></p></article><?php endforeach; ?>
+    </section>
     </section>
 </main>
 <?php require 'rodape.php'; ?>

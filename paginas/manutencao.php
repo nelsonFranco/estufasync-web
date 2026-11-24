@@ -6,6 +6,7 @@ require 'cabecalho.php';
 ?>
 
 <main>
+    <section class="quarteirao">
     <section class="heading">
         <div>
             <p class="eyebrow">HARDWARE E CONECTIVIDADE</p>
@@ -50,6 +51,7 @@ require 'cabecalho.php';
     </section>
 
     <p class="note">Os dados de frequência e Wi-Fi são recebidos do ThingSpeak. O estado dos componentes é baseado na última leitura disponível.</p>
+    </section>
 </main>
 
 <?php require 'rodape.php'; ?>

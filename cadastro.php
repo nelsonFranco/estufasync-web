@@ -22,7 +22,11 @@ $status = isset($_GET['enviado']) ? 'Solicitação concluída. Se os dados estav
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Criar conta | Sensoriamento Inteligente para Estufas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/tema.css">
     <link rel="icon" type="image/x-icon" href="icone.ico">
 </head>
 <body class="login-page">
