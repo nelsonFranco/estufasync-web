@@ -12,6 +12,5 @@
     </footer>
     <script src="../script/thingSpeakScript.js"></script>
     <script src="../script/painel.js"></script>
-    <script src="../script/relatorios.js"></script>
 </body>
 </html>

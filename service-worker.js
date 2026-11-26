@@ -1,5 +1,5 @@
-const CACHE = 'estufa-estaticos-v1';
-const ARQUIVOS = ['./offline.html', './style/style.css', './script/painel.js', './script/thingSpeakScript.js', './script/relatorios.js', './icone.ico'];
+const CACHE = 'estufa-estaticos-v2';
+const ARQUIVOS = ['./offline.html', './style/style.css', './script/painel.js', './script/thingSpeakScript.js', './icone.ico'];
 
 self.addEventListener('install', function(evento) {
     evento.waitUntil(caches.open(CACHE).then(function(cache) { return cache.addAll(ARQUIVOS); }));

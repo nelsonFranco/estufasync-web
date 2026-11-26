@@ -55,7 +55,7 @@ As capturas abaixo fazem parte da documentação do repositório e estão organi
 - Configuração da estufa, limites e alertas;
 - Gestão de cultivo, ciclo e diário operacional;
 - Acompanhamento de componentes e conectividade;
-- Relatórios com médias, mínimos, máximos, disponibilidade, CSV e impressão;
+- Relatórios no site Estufa (estufa.freedev.app), abertos direto do menu com login automático e seguro;
 - Perfil, suporte e recursos PWA (`manifest.json`, service worker e página offline).
 
 ## 🧰 Tecnologias
