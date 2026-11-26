@@ -14,4 +14,7 @@ return [
     'app_secret' => 'GERE_64_CARACTERES_ALEATORIOS',
     'estufa_id' => 1,
     'codigo_convite_hash' => 'HASH_SHA256_DO_CODIGO_DE_CONVITE',
+    // Relatórios abrem no site Estufa. O segredo deve ser o mesmo ESTUFASYNC_SEGREDO do Estufa (64+ caracteres).
+    'estufa_url' => 'https://estufa.freedev.app',
+    'estufa_sso_segredo' => 'GERE_64_CARACTERES_ALEATORIOS_IGUAL_AO_DO_ESTUFA',
 ];
